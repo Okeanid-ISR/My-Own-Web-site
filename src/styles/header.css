@@ -56,6 +56,7 @@
     content: '';
     position: absolute;
     left: 0;
+    bottom: -5px; /* отступ снизу */
     width: 100%;
     height: 18px; /* высота линии */
     border-bottom: 1.5px solid #333;
