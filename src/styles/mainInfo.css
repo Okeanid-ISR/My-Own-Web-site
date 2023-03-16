@@ -1,0 +1,15 @@
+.block-colored {
+    padding: 100px 0;
+    background: #6E07F3;
+    width: 100%;
+}
+
+.block-colored-text__info {
+    color: white;
+    font-weight: 600;
+    padding: 20px 120px;
+}
+
+.block-colored-text {
+    color: white;
+}
