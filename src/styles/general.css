@@ -3,7 +3,7 @@
     --links-hover: #51abef;
     --font-weight-links: 500;
     --links-color:#2c2e3b;
-
+    --font-strong:1.2rem;
     --dark-mode:#2c2e3b;
     --secondary-color: #6c757d;
     --background-color: #fff;
@@ -19,4 +19,15 @@ body {
 body.dark {
     --background-color:var(--background-color-dark);
     --text-color: #fff;
+}
+
+.shake {
+    animation: shake 0.7s linear;
+}
+@keyframes shake {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-2px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(3px); }
+    100% { transform: translateY(0); }
 }
