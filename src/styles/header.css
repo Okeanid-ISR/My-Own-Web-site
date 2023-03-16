@@ -30,7 +30,7 @@
     bottom: -2px;
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: var(--links-hover);
     transform: scaleX(0); /* изначально линия не видна */
     transition: transform 0.3s ease-in-out; /* добавляем плавный эффект при появлении линии */
 }
@@ -56,7 +56,6 @@
     content: '';
     position: absolute;
     left: 0;
-    bottom: -15px; /* отступ снизу */
     width: 100%;
     height: 18px; /* высота линии */
     border-bottom: 1.5px solid #333;
@@ -72,9 +71,17 @@
     }
     to {
         transform: scaleY(1) translateY(0);
-            border-top: 18px solid black;
+            border-top: 18px solid var(--dark-mode);
         border-right: 50px solid transparent;
         border-left: 50px solid transparent;
     }
 }
 
+#toggle-theme {
+    border-radius: 6px;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    padding: 4px;
+    width: 100px;
+}

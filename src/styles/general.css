@@ -1,7 +1,22 @@
 :root {
     --font-text-size-nav: 1rem;
-    --links-hover: purple;
+    --links-hover: #51abef;
     --font-weight-links: 500;
-    --links-color:black;
+    --links-color:#2c2e3b;
+
+    --dark-mode:#2c2e3b;
     --secondary-color: #6c757d;
+    --background-color: #fff;
+    --background-color-dark:#476894 ;
+    --text-color: #333;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+body.dark {
+    --background-color:var(--background-color-dark);
+    --text-color: #fff;
 }

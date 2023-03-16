@@ -1,9 +1,9 @@
 import React from "react";
 import "../styles/header.css"
 import "../styles/general.css"
+import "../js/header"
 
-
-const Header = () => {
+const Header = ({toggleThemeButton}) => {
     return (
         <div className="header-main">
             <div className="container">
@@ -14,7 +14,7 @@ const Header = () => {
                                  className="header-logo__image"/>
                         </div>
                     </div>
-                    <nav className="navBar-main col-10 d-flex align-items-center">
+                    <nav className="navBar-main col-9 d-flex align-items-center">
                         <ul className="navBar-ul list-unstyled d-flex col-10">
                             <li className="navBar-ul__list "><a className="navBar-ul__link   fw-400 text-decoration-none"
                                                                href="#">About</a></li>
@@ -23,8 +23,9 @@ const Header = () => {
                             <li className="navBar-ul__list"><a className="navBar-ul__link text-decoration-none"
                                                                href="#">Say Hello</a></li>
                         </ul>
-                        <div className="navBar-modules col-2">
+                        <div className="navBar-modules col-3">
                             {/*//https://freeicons.io/profile/321513 thanks him for svg*/}
+                            <button onClick={toggleThemeButton} id="toggle-theme">Dark Mode</button>
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
                                  viewBox="0 0 512.004 512.004">
                                 <g id="Layer_x0020_1" transform="translate(-93.998 -93.998)">
@@ -53,7 +54,7 @@ const Header = () => {
                                           fill="#250e1e"/>
                                     <path id="Path_311" data-name="Path 311"
                                           d="M267.226,267.226A117.063,117.063,0,1,0,350,232.941,116.695,116.695,0,0,0,267.226,267.226Z"
-                                          fill="#ffda46" fill-rule="evenodd"/>
+                                          fill="#ffda46" fillRule="evenodd"/>
                                 </g>
                             </svg>
                             <svg className="navBar-modules__sound" xmlns="http://www.w3.org/2000/svg" width="50"
