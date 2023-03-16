@@ -1,0 +1,80 @@
+.header-main {
+    padding: 30px;
+}
+
+.header-logo__image {
+    width: 65px;
+}
+
+.navBar-ul__list {
+    margin-left: 15px;
+    padding: 5px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.navBar-ul {
+    margin: 0;
+}
+
+.navBar-ul__link {
+    position: relative;
+    font-size: var(--font-text-size-nav);
+    font-weight: var(--font-weight-links);
+    color: var(--links-color);
+}
+
+.navBar-ul__link::after {
+    content: ""; /* обязательно задать содержимое для псевдоэлемента */
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transform: scaleX(0); /* изначально линия не видна */
+    transition: transform 0.3s ease-in-out; /* добавляем плавный эффект при появлении линии */
+}
+
+.navBar-ul__link:hover::after {
+    transform: scaleX(1); /* при наведении линия появляется */
+}
+
+.navBar-ul__link:hover {
+    color: var(--links-hover);
+    transition: 0.4s;
+}
+
+.navBar-modules svg {
+    margin-left: 15px;
+}
+
+.header-main {
+    position: relative;
+}
+
+.header-main::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -15px; /* отступ снизу */
+    width: 100%;
+    height: 18px; /* высота линии */
+    border-bottom: 1.5px solid #333;
+    border-radius: 50% 50% 0 0;
+    transform: skewY(-90deg);
+    transform-origin: left bottom;
+    animation: curve 1.3s cubic-bezier(0.33, 1, 0.6, 1) forwards;
+}
+
+@keyframes curve {
+    from {
+        transform: scaleY(0.5) translateY(-18px);
+    }
+    to {
+        transform: scaleY(1) translateY(0);
+            border-top: 18px solid black;
+        border-right: 50px solid transparent;
+        border-left: 50px solid transparent;
+    }
+}
+
