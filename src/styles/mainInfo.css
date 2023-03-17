@@ -13,3 +13,8 @@
 .block-colored-text {
     color: white;
 }
+
+.computers-pic {
+    position: relative;
+    bottom: -3px;
+}

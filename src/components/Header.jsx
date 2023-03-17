@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/header.css"
 import "../styles/general.css"
-import "../js/header"
 
 const Header = ({toggleThemeButton}) => {
     return (
@@ -14,13 +13,13 @@ const Header = ({toggleThemeButton}) => {
                                  className="header-logo__image"/>
                         </div>
                     </div>
-                    <nav className="navBar-main col-9 d-flex align-items-center">
+                    <nav className="navBar-main col-9 d-flex align-items-center ">
                         <ul className="navBar-ul list-unstyled d-flex col-10">
-                            <li className="navBar-ul__list "><a className="navBar-ul__link   fw-400 text-decoration-none"
+                            <li className="navBar-ul__list shake"><a className="navBar-ul__link   fw-400 text-decoration-none"
                                                                href="#">About</a></li>
-                            <li className="navBar-ul__list"><a className="navBar-ul__link text-decoration-none"
+                            <li className="navBar-ul__list shake"><a className="navBar-ul__link text-decoration-none"
                                                                href="#">Resume</a></li>
-                            <li className="navBar-ul__list"><a className="navBar-ul__link text-decoration-none"
+                            <li className="navBar-ul__list shake"><a className="navBar-ul__link text-decoration-none"
                                                                href="#">Say Hello</a></li>
                         </ul>
                         <div className="navBar-modules col-3">
