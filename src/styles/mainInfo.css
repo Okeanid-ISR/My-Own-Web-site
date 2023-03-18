@@ -7,7 +7,7 @@
 .block-colored-text__info {
     color: white;
     font-weight: 600;
-    padding: 20px 120px;
+    padding: 40px 120px;
 }
 
 .block-colored-text {
@@ -17,4 +17,18 @@
 .computers-pic {
     position: relative;
     bottom: -3px;
+}
+
+.block-colored-text__checkout {
+    text-shadow: 0 0 10px #FFFFFF;
+
+}
+
+.block-colored-text__image {
+    background-size: cover;
+    background-position: top;
+    color: white;
+    height: 40px;
+    width: 40px;
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' ?%3e%3c!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3e%3csvg enable-background='new 0 0 50 50' id='Layer_1' version='1.1' viewBox='0 0 50 50' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3crect fill='none' height='50' width='50'/%3e%3cpath d='M15.603,29L30,48l14.396-19 H35C35,0,6,1,6,1s19,1.373,19,28H15.603z' fill='white' stroke='%23000000' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2'/%3e%3c/svg%3e");
 }
