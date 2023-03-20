@@ -69,11 +69,12 @@
     overflow: hidden;
 }
 
-.companies-block div {
+.companies-block .companies-block__general {
     margin-left: 60px;
 }
 
 .companies-block__title {
     font-weight: 700;
     font-size: var(--large-font-size);
+    font-family: var(--font-famaly-forH2);
 }

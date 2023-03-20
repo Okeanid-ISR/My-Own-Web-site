@@ -4,7 +4,7 @@
     width: 33.33%;
     background: #6E07F3;
     border-radius: 15px;
-    border: 1px solid black;
+    border: 1px solid #333;
 }
 
 .portfolio-blocks:hover{
@@ -17,6 +17,8 @@
 
 .portfolio__port-topic{
     font-weight: 700;
+    font-size: var(--large-font-size);
+    font-family: var(--font-famaly-forH2);
 }
 
 .portfolio__topic{
