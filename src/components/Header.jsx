@@ -36,7 +36,6 @@ const Header = ({toggleThemeButton, audioRef}) => {
                     </nav>
                     <div className="col-9 d-flex justify-content-end align-items-center">
                         <nav className="navbar navbar-expand-lg">
-
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
                                     aria-expanded="false" aria-label="Переключатель навигации">

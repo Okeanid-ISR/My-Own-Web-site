@@ -1,13 +1,24 @@
-import React from "react"
+import React, {useEffect} from "react"
 import "../styles/myskills.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const MySkills = () => {
+    useEffect(() => {
+        AOS.init({
+            offset: 175,
+            duration: 550,
+            easing: 'ease-in-out',
+            delay: 0
+        });
+    }, []);
+
     return (
         <div className="mySkills-main">
             <div className="container">
                 <div className="row">
                     <h2 className="mySkills__topic text-center mb-5">My Skills</h2>
-                    <div className="col-12 col-md-6 mb-3">
+                    <div data-aos="fade-up" className="col-12 col-md-6 mb-3">
                         <div className="frontend-block mySkills-general-q d-flex flex-column justify-content-between align-items-center">
                             <div className="frontend-block__image"/>
                             <h4 className="text-center mb-3 frontend-block__topic">Frontend Developer</h4>
@@ -28,7 +39,7 @@ const MySkills = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-12 col-md-6 mb-3">
+                    <div data-aos="fade-up" className="col-12 col-md-6 mb-3">
                         <div
                             className="backend-block mySkills-general-q d-flex flex-column justify-content-between align-items-center">
                             <div className="backend-block__image"/>
