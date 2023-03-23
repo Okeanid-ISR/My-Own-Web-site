@@ -10,7 +10,7 @@ const Collaboration = () => {
                     <div className="row">
                         <div className="col-12">
                             <h4 className="collaboration-main__collab">Interested in collaborations with me?</h4>
-                            <p className="fs-5 collaboration-info-desires"> I'd be happy to collaborate with you! Let's create something great together!</p>
+                            <p className="collaboration-info-desires"> I'd be happy to collaborate with you! Let's create something great together!</p>
                         </div>
                         <div className="col-12">
                             <button className="btn-email">Email me</button>

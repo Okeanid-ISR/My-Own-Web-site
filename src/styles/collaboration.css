@@ -28,3 +28,16 @@
     color: white;
     font-weight: 500;
 }
+
+@media screen and (max-width: 575px){
+    .collaboration-main__collab {
+        font-size: 1.5rem;
+    }
+    .collaboration-main {
+        width: 90%;
+    }
+
+    .collaboration-info-desires{
+        font-size: 1rem;
+    }
+}
