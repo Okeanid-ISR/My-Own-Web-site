@@ -36,3 +36,26 @@
     font-family: Flicker,sans-serif;
 }
 
+@media screen and (max-width: 1199px) {
+    .block-colored-text__info {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .computers-pic {
+        bottom: -26px;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+    .computers-pic {
+        bottom: -61px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .computers-pic {
+        bottom: -57px;
+    }
+}
