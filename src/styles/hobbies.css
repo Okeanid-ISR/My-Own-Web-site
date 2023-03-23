@@ -64,3 +64,35 @@
 .hobbies-blocks__guide {
     text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
 }
+
+@media screen and (max-width: 575px){
+    .hobbies-blocks {
+        margin-left: 20px;
+        width: 85%;
+        height: 300px;
+    }
+
+    .hobbies_general{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 991px){
+    .hobbies-blocks {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px){
+    .hobbies-blocks {
+        width: 80%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+}
