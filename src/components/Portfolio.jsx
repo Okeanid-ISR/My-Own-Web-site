@@ -12,7 +12,7 @@ const Portfolio = () => {
                             </h2>
                             <h4 className="fs-5">Here are a few past design projects I've worked on. </h4>
                         </div>
-                    <div className="col-12 mt-3 col-md-6 col-lg-6 col-xl-4 d-flex justify-content-around">
+                    <div className="col-12 mt-3 col-md-6 col-lg-6 col-xl-4  d-flex justify-content-around">
                             <a href="https://atlas-main-isr.netlify.app/">
                                 <div className="portfolio-blocks atlas ">
                                     <div className="overlay">

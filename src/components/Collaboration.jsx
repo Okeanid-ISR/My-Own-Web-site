@@ -1,5 +1,4 @@
 import React from "react"
-import "../styles/portfolio.css"
 import "../styles/collaboration.css"
 
 const Collaboration = () => {

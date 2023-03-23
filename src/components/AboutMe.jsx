@@ -8,9 +8,9 @@ const AboutMe = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <div className="aboutMe__info text-center shake m-5">
-                            <span className="fs-1">Designer & Fullstack Developer</span><br/>
-                            I design and code beautifully simple things, and I love what I do.
+                        <div className="aboutMe-info text-center shake m-5">
+                            <h2 className="fs-1 aboutMe-info__me">Designer & Fullstack Developer</h2><br/>
+                            <h4 className="fs-5">I design and code beautifully simple things, and I love what I do.</h4>
                         </div>
                     </div>
                     <div className="col-12">
@@ -22,7 +22,6 @@ const AboutMe = () => {
                 </div>
             </div>
         </div>
-
     );
 };
 

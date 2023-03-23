@@ -6,7 +6,6 @@ const MainInfo = () => {
 
         <div className="pro-info-main">
 
-            <div id="page-wrapper">
                 <div className="container">
                     <div className="d-flex justify-round justify-content-center">
                         <svg className="computers-pic" xmlns="http://www.w3.org/2000/svg" width="800" height="330"
@@ -235,7 +234,7 @@ const MainInfo = () => {
                     <div className="container-fluid">
                         <div className="container">
                             <div className="block-colored-text text-center">
-                                <h2>Hi, I’m Ilya. Nice to meet you.</h2>
+                                <h2 className="block-colored-text__me">Hi, I’m Ilya. Nice to meet you.</h2>
                                 <p className="block-colored-text__info lh-base">"Hello world! I'm a programmer on the
                                     hunt for a new
                                     job. When I'm not writing code,
@@ -243,13 +242,14 @@ const MainInfo = () => {
                                     for inspiration, or arguing with my keyboard. If you're in need of a witty and
                                     slightly delirious developer to join your team, look no further - I'm your coding
                                     superhero!</p>
-                                <h4>Checkout latest posts!</h4>
+                              <div className="d-flex justify-content-center">
+                                  <h4 className="block-colored-text__checkout">Checkout my latest posts</h4><div className="block-colored-text__image"></div>
+                              </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 

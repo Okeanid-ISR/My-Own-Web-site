@@ -23,7 +23,8 @@ const MySkills = () => {
                                 <li>Yarn</li>
                                 <li>Github</li>
                                 <li>Web Storm</li>
-                                <li>Atom</li>
+                                <li>Figma</li>
+                                <li>Adobe Photoshop</li>
                             </ul>
                         </div>
                     </div>

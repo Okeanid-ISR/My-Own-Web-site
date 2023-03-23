@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/footer.css";
 import "../styles/general.css";
 
-const Footer = () => {
+const Footer = ({svg}) => {
     return (
         <div className="footer-main container-fluid">
             <div className=" d-flex align-items-center justify-content-around order-md-first">
