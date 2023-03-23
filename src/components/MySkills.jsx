@@ -6,11 +6,11 @@ const MySkills = () => {
         <div className="mySkills-main">
             <div className="container">
                 <div className="row">
-                    <h2 className="mySkills__topic fs-1 text-center mb-5">My Skills:</h2>
-                    <div className="col-6">
+                    <h2 className="mySkills__topic text-center mb-5">My Skills</h2>
+                    <div className="col-12 col-md-6 mb-3">
                         <div className="frontend-block mySkills-general-q d-flex flex-column justify-content-between align-items-center">
                             <div className="frontend-block__image"/>
-                            <h4 className="text-center mb-3">Frontend Developer</h4>
+                            <h4 className="text-center mb-3 frontend-block__topic">Frontend Developer</h4>
                             <p className="text-center">I have a thing for frontend because it's like playing dress-up
                                 for websites - you get
                                 to make them look pretty and presentable!</p>
@@ -27,11 +27,11 @@ const MySkills = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-12 col-md-6 mb-3">
                         <div
                             className="backend-block mySkills-general-q d-flex flex-column justify-content-between align-items-center">
                             <div className="backend-block__image"/>
-                            <h4 className="text-center mb-3">Backend Developer</h4>
+                            <h4 className="text-center mb-3 backend-block__topic">Backend Developer</h4>
                             <p className="text-center">I am a backend wizard, battling server gremlins and casting
                                 spells to keep everything
                                 running smoothly. You're the unsung hero of the virtual world!</p>
