@@ -1,9 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
+import Header from './components/comps_home/Header';
 import Home from "./comps_pages/Home";
 import Trainings from "./comps_pages/Trainings";
-import Page404 from "../src/comps_pages/page404"
+import Page404 from "./comps_pages/page404"
+import Collaboration from "./components/comps_home/Collaboration";
+import Footer from "./components/comps_home/Footer";
+import SayHello from "./components/SayHello";
 
 
 export default function AppRouters() {
@@ -25,8 +28,11 @@ export default function AppRouters() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/trainings" element={<Trainings />} />
+                <Route path="/sayHello" element={<SayHello />} />
                 <Route path="/*" element={<Page404 />} />
             </Routes>
+            <Collaboration/>
+            <Footer/>
         </BrowserRouter>
     )
 }

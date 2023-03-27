@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import "../styles/trainings/tips.css";
+import "../styles/trainings_styles/tips.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -52,7 +52,7 @@ const Portfolio = () => {
             <div className="row">
                 {objectOfTips.map(item => {
                     return (
-                        <div className="tips-cards p-5">
+                        <div data-aos="fade-up" className="tips-cards p-5">
                             <div className="col-12">
                                 <div className={"tip-card d-flex p-3 " + item.row}>
                                     <div className="col-6">
