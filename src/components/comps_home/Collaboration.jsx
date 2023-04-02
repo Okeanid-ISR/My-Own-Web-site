@@ -1,5 +1,6 @@
 import React from "react"
-import "../styles/collaboration.css"
+import "../../styles/home_styles/collaboration.css"
+import {Link} from "react-router-dom";
 
 const Collaboration = () => {
     return (
@@ -12,7 +13,9 @@ const Collaboration = () => {
                             <p className="collaboration-info-desires"> I'd be happy to collaborate with you! Let's create something great together!</p>
                         </div>
                         <div className="col-12">
-                            <button className="btn-email">Email me</button>
+                            <Link to={"sayHello"}>
+                                <button className="btn-email">Email me</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
