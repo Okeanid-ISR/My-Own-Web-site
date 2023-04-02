@@ -114,6 +114,10 @@
     display: flex;
 }
 
+.navbar {
+    display: block;
+}
+
 @media screen and (max-width: 575px) {
 
     .separator {
@@ -168,13 +172,7 @@
     .nav-hid{
         display: block;
     }
-
-    .header-menu_opened {
-        display: flex;
-        opacity: 1;
-        transform: translateX(0);
-        visibility: visible;
-        margin-top: 60px;
-        overflow: auto;
+    .navbar{
+        display:flex ;
     }
 }

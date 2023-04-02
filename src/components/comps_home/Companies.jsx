@@ -1,5 +1,5 @@
 import React from "react"
-import "../styles/companies.css"
+import "../../styles/home_styles/companies.css"
 import Marquee from "react-fast-marquee"
 import styled from 'styled-components';
 

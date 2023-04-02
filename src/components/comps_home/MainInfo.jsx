@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/mainInfo.css"
+import "../../styles/home_styles/mainInfo.css"
 
 const MainInfo = () => {
     return (

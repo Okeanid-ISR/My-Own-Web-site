@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import "../styles/trainings_styles/tips.css";
+import "../../styles/trainings_styles/tips.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

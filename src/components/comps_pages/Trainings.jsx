@@ -1,5 +1,5 @@
 import React from 'react'
-import Tips from "../trainings_components/Tips";
+import Tips from "../comps_trainings/Tips";
 
 export default function Trainings() {
     return (
