@@ -1,0 +1,30 @@
+.tattoos-styles-main {
+    padding: 80px;
+}
+
+.tattoos-styles-topic__text {
+    font-family: var(--font-famaly-forH2);
+}
+
+.tattoos-styles-block-text__topic {
+    font-family: var(--font-famaly-forH2);
+}
+
+.tattoos-styles-block-text__description {
+    font-family: var(--font-famaly-forH2);
+}
+
+.tattoos-styles-block {
+    margin: 45px 0;
+}
+
+.carousel-inner {
+    max-width: 450px;
+    max-height: 400px;
+    border-radius: 10px;
+
+}
+
+.carousel-inner__image {
+    width: 100%;
+}
