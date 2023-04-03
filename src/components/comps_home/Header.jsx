@@ -1,8 +1,8 @@
-import "../styles/header.css"
-import "../styles/general.css"
+import "../../styles/general_styles/header.css"
+import "../../styles/general_styles/general.css"
+import {Link} from 'react-router-dom';
 
 const Header = ({toggleThemeButton, audioRef}) => {
-
     return (
         <div className="header-main">
             <div className="container">
@@ -15,24 +15,21 @@ const Header = ({toggleThemeButton, audioRef}) => {
                     </div>
                     <nav className="navBar-main col-9 col-md-10 align-items-center ">
                         <ul className="navBar-ul list-unstyled d-flex col-10">
-                            <li className="navBar-ul__list shake"><a
+                            <li className="navBar-ul__list shake"><Link
                                 className="navBar-ul__link   fw-400 text-decoration-none"
-                                href="#">About</a></li>
-                            <li className="navBar-ul__list shake"><a className="navBar-ul__link text-decoration-none"
-                                                                     href="#">Resume</a></li>
-                            <li className="navBar-ul__list shake"><a className="navBar-ul__link text-decoration-none"
-                                                                     href="#">Say Hello</a></li>
+                                to="/">Home</Link></li>
+                            <li className="navBar-ul__list shake"><Link className="navBar-ul__link text-decoration-none"
+                                                                        href="/documents/resume.pdf"
+                                                                        download="resume.pdf"
+                                                                        type="application/pdf">Resume</Link>
+                            </li>
+                            <li className="navBar-ul__list shake"><Link className="navBar-ul__link text-decoration-none"
+                                                                        to="sayHello">Say Hello</Link></li>
                         </ul>
-
                         <div className="navBar-modules align-items-center col-3">
-                            {/*//https://freeicons.io/profile/321513 thanks him for svg*/}
                             <button onClick={toggleThemeButton} id="toggle-theme">Dark Mode</button>
-                            <audio ref={audioRef} preload='auto' id="click-sound"
-                                   src="../audio/Sound_85854500%201634320151.mp3"/>
                             <div className="sun"/>
-
                         </div>
-
                     </nav>
                     <div className="col-9 d-flex justify-content-end align-items-center">
                         <nav className="navbar navbar-expand-lg">
@@ -53,13 +50,10 @@ const Header = ({toggleThemeButton, audioRef}) => {
                                         <a className="nav-link">Say Hello</a>
                                     </li>
                                 </ul>
-
                             </div>
                         </nav>
                     </div>
-
                 </div>
-
             </div>
         </div>
     );

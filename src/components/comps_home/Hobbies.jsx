@@ -1,9 +1,12 @@
 import React, {useEffect} from "react"
-import "../styles/hobbies.css"
+import "../../styles/home_styles/hobbies.css"
 import AOS from "aos";
 import 'aos/dist/aos.css';
+import {Link} from "react-router-dom";
+import {arCards} from "./hobbiesCardsArr";
+const Hobbies = () => {
 
-const Hobbies = ({ar}) => {
+
     useEffect(() => {
         AOS.init({
             offset: 150,
@@ -17,23 +20,25 @@ const Hobbies = ({ar}) => {
         <div className="hobbies-main">
             <div className="container">
                 <div className="row">
-                    {ar.map((card) => {
+                    {arCards.map((card) => {
                         return (
-                            <div data-aos="fade-up" className="col-12 col-sm-6 col-md-6 col-xl-3 d-md-flex mb-5 hobbies_general col-md-3">
+                            <Link to={card.link} data-aos="fade-up"
+                                  className="col-12 col-sm-6 col-md-6 col-xl-3 d-md-flex mb-5 hobbies_general text-decoration-none col-md-3">
                                 <div
                                     className="hobbies-blocks cursor-pointer d-flex align-items-center flex-column justify-content-evenly">
                                     <div className={card.image}/>
                                     <div className="text-center">
-                                        <h4 className="hobbies-blocks__topic">{card.title}</h4>
+                                        <h4 className="hobbies-blocks__topic ">{card.title}</h4>
                                         <p className="hobbies-blocks__guide">{card.definition}</p>
                                     </div>
                                 </div>
-                            </div>
+                            </Link>
                         )
                     })}
                 </div>
             </div>
         </div>
+
     )
 }
 

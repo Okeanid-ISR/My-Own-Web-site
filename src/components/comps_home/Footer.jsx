@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/footer.css";
-import "../styles/general.css";
+import "../../styles/general_styles/footer.css";
+import "../../styles/general_styles/general.css";
 
 const Footer = ({svg}) => {
     return (
