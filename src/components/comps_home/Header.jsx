@@ -2,7 +2,7 @@ import "../../styles/general_styles/header.css"
 import "../../styles/general_styles/general.css"
 import {Link} from 'react-router-dom';
 
-const Header = ({toggleThemeButton, audioRef}) => {
+const Header = ({toggleThemeButton}) => {
     return (
         <div className="header-main">
             <div className="container">
@@ -24,7 +24,7 @@ const Header = ({toggleThemeButton, audioRef}) => {
                                                                         type="application/pdf">Resume</Link>
                             </li>
                             <li className="navBar-ul__list shake"><Link className="navBar-ul__link text-decoration-none"
-                                                                        to="sayHello">Say Hello</Link></li>
+                                                                        to="sayHello">Contact</Link></li>
                         </ul>
                         <div className="navBar-modules align-items-center col-3">
                             <button onClick={toggleThemeButton} id="toggle-theme">Dark Mode</button>
