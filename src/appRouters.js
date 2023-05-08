@@ -9,7 +9,6 @@ import Footer from "./components/comps_home/Footer";
 import SayHello from "./components/comps_pages/SayHello";
 import Tattoo from "./components/comps_pages/Tattoo";
 import Food from "./components/comps_pages/Food";
-import ScrollToTop from './ScrollToTop';
 
 export default function AppRouters() {
     const toggleThemeButton = () => {
@@ -27,7 +26,6 @@ export default function AppRouters() {
     return (
         <BrowserRouter>
             <Header toggleThemeButton={toggleThemeButton}/>
-            <ScrollToTop />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/trainings" element={<Trainings />} />
