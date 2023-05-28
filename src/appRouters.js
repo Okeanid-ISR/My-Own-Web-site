@@ -31,7 +31,7 @@ export default function AppRouters() {
                 <Route path="/trainings" element={<Trainings />} />
                 <Route path="/tattoos" element={<Tattoo />} />
                 <Route path="/sayHello" element={<SayHello />} />
-                <Route path="/food" element={<Food />} />
+                {/*<Route path="/food" element={<Food />} />*/}
                 <Route path="/*" element={<Page404 />} />
             </Routes>
             <Collaboration/>
