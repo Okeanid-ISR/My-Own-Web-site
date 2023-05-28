@@ -22,18 +22,16 @@ const Hobbies = () => {
                 <div className="row">
                     {arCards.map((card) => {
                         return (
-                            <Link to={card.link} data-aos="fade-up"
-                                  className="col-12 col-sm-6 col-md-6 col-xl-3 d-md-flex mb-5 hobbies_general text-decoration-none col-md-3">
-                                <div
-                                    className="hobbies-blocks cursor-pointer d-flex align-items-center flex-column justify-content-evenly">
-                                    <div className={card.image}/>
+                            <Link key={card.link} to={card.link} data-aos="fade-up" className="col-12 col-sm-6 col-md-6 col-xl-3 d-md-flex mb-5 hobbies_general text-decoration-none col-md-3">
+                                <div className="hobbies-blocks cursor-pointer d-flex align-items-center flex-column justify-content-evenly">
+                                    <div className={card.image} />
                                     <div className="text-center">
-                                        <h4 className="hobbies-blocks__topic ">{card.title}</h4>
+                                        <h4 className="hobbies-blocks__topic">{card.title}</h4>
                                         <p className="hobbies-blocks__guide">{card.definition}</p>
                                     </div>
                                 </div>
                             </Link>
-                        )
+                        );
                     })}
                 </div>
             </div>
