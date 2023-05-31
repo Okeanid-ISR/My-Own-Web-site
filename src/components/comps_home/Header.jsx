@@ -18,10 +18,12 @@ const Header = ({toggleThemeButton}) => {
                             <li className="navBar-ul__list shake"><Link
                                 className="navBar-ul__link   fw-400 text-decoration-none"
                                 to="/">Home</Link></li>
-                            <li className="navBar-ul__list shake"><Link className="navBar-ul__link text-decoration-none"
-                                                                        href="/documents/resume.pdf"
-                                                                        download="resume.pdf"
-                                                                        type="application/pdf">Resume</Link>
+                            <li className="navBar-ul__list shake">
+                                <a className="navBar-ul__link text-decoration-none"
+                                   href="/Ilya_Tsoy_resume_Main.pdf"
+                                   download="resume.pdf">Resume
+                                </a>
+
                             </li>
                             <li className="navBar-ul__list shake"><Link className="navBar-ul__link text-decoration-none"
                                                                         to="sayHello">Contact</Link></li>
@@ -43,9 +45,14 @@ const Header = ({toggleThemeButton}) => {
                                     <li className="nav-item navBar-ul__link   fw-400 text-decoration-none">
                                         <a className="nav-link active" aria-current="page" href="#">About</a>
                                     </li>
-                                    <li className="nav-item navBar-ul__link   fw-400 text-decoration-none">
-                                        <a className="nav-link" href="#">Resume</a>
+                                    <li className="nav-item navBar-ul__link fw-400 text-decoration-none">
+                                        <a className="navBar-ul__link text-decoration-none"
+                                           href="/Ilya_Tsoy_resume_Main.pdf"
+                                           download="resume.pdf">Resume
+                                        </a>
+
                                     </li>
+
                                     <li className="nav-item navBar-ul__link   fw-400 text-decoration-none">
                                         <a className="nav-link">Say Hello</a>
                                     </li>
