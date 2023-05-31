@@ -118,7 +118,16 @@
     display: block;
 }
 
+.navbar-nav {
+    margin-left: -70px;
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 575px) {
+    .navbar-nav {
+        margin-left: -75px;
+        margin-top: 10px;
+    }
 
     .separator {
         display: flex;

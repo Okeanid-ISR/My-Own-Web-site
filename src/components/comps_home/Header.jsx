@@ -34,17 +34,18 @@ const Header = ({toggleThemeButton}) => {
                         </div>
                     </nav>
                     <div className="col-9 d-flex justify-content-end align-items-center">
-                        <nav className="navbar navbar-expand-lg">
-                            <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        <nav className="navbar position-relative justify-content-center navbar-expand-lg">
+                            <button className="navbar-toggler "  type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
-                                    aria-expanded="false" aria-label="Переключатель навигации">
+                                    aria-expanded="false">
                                 <span className="navbar-toggler-icon"/>
                             </button>
-                            <div className="collapse navbar-collapse nav-hid" id="navbarTogglerDemo02">
-                                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <div className="collapse  navbar-collapse nav-hid" id="navbarTogglerDemo02">
+                                <ul className="navbar-nav me-auto mb-2 dropdown-menu d-flex align-items-center mb-lg-0">
                                     <li className="nav-item navBar-ul__link   fw-400 text-decoration-none">
-                                        <a className="nav-link active" aria-current="page" href="#">About</a>
+                                        <Link className="nav-link active" aria-current="page" to="/Home">Home</Link>
                                     </li>
+
                                     <li className="nav-item navBar-ul__link fw-400 text-decoration-none">
                                         <a className="navBar-ul__link text-decoration-none"
                                            href="/Ilya_Tsoy_resume_Main.pdf"
@@ -54,7 +55,7 @@ const Header = ({toggleThemeButton}) => {
                                     </li>
 
                                     <li className="nav-item navBar-ul__link   fw-400 text-decoration-none">
-                                        <a className="nav-link">Say Hello</a>
+                                        <Link  to='/sayHello' className="nav-link active">Say Hello</Link>
                                     </li>
                                 </ul>
                             </div>
