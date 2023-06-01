@@ -8,7 +8,6 @@ import Collaboration from "./components/comps_home/Collaboration";
 import Footer from "./components/comps_home/Footer";
 import SayHello from "./components/comps_pages/SayHello";
 import Tattoo from "./components/comps_pages/Tattoo";
-import Food from "./components/comps_pages/Food";
 
 export default function AppRouters() {
     const toggleThemeButton = () => {

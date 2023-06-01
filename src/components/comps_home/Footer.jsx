@@ -44,7 +44,7 @@ const Footer = ({svg}) => {
                 </div>
             </div>
             <div className="footer-main-heart">
-                <a className="footer-main-heart__link text-decoration-none text-white mt-3" href="#">Copyright © 2023. Crafted with love.</a>
+                <a className="footer-main-heart__link text-decoration-none text-white mt-3" href="https://www.linkedin.com/in/ilya-tsoy-126769242/">Copyright © 2023. Crafted with love.</a>
             </div>
         </div>
 

@@ -25,7 +25,7 @@ export default function FoodBreakfast() {
                                         <div
                                             className="food-lunch-block p-2 d-flex flex-column justify-content-between">
                                             <h4 className="food-lunch-block__topic text-center">{item.topic}</h4>
-                                            <img className="food-lunch-block__image" src={item.img}/>
+                                            <img alt='img' className="food-lunch-block__image" src={item.img}/>
                                             <ul>
                                                 {
                                                     item.Ingredients.map((ingredient, ingredientIndex) => {
@@ -41,7 +41,7 @@ export default function FoodBreakfast() {
                                             {isShowLight && (
                                                 <LightBox>
                                                     <div className="d-flex flex-column text-center align-items-center">
-                                                        <img className="food-lunch-block__image-inner" src={lightInfo.img} />
+                                                        <img alt='img' className="food-lunch-block__image-inner" src={lightInfo.img} />
                                                         <h2>{lightInfo.topic}</h2>
                                                         <p>Instruction: {lightInfo.Instruction}</p>
                                                         <button className="btn-close p-3"
