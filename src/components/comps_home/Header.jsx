@@ -17,7 +17,7 @@ const Header = ({toggleThemeButton}) => {
                         <ul className="navBar-ul list-unstyled d-flex col-10">
                             <li className="navBar-ul__list shake"><Link
                                 className="navBar-ul__link   fw-400 text-decoration-none"
-                                to="/Home">Home</Link></li>
+                                to="/">Home</Link></li>
                             <li className="navBar-ul__list shake">
                                 <a className="navBar-ul__link text-decoration-none"
                                    href="/Ilya_Tsoy_resume_Main.pdf"
@@ -43,7 +43,7 @@ const Header = ({toggleThemeButton}) => {
                             <div className="collapse navbar-collapse nav-hid" id="navbarTogglerDemo02">
                                 <ul className="navbar-nav me-auto mb-2 dropdown-menu d-flex align-items-center mb-lg-0">
                                     <li className="nav-item navBar-ul__link   fw-400 text-decoration-none">
-                                        <Link className="nav-link active" aria-current="page" to="/Home">Home</Link>
+                                        <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                                     </li>
 
                                     <li className="nav-item navBar-ul__link fw-400 text-decoration-none">
