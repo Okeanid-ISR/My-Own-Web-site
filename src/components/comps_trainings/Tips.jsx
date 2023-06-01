@@ -50,9 +50,9 @@ const Portfolio = () => {
     return (
         <div className="tips-main">
             <div className="row">
-                {objectOfTips.map(item => {
+                {objectOfTips.map((item,index) => {
                     return (
-                        <div data-aos="fade-up" className="tips-cards p-5">
+                        <div key={index} data-aos="fade-up" className="tips-cards p-5">
                             <div className="col-12">
                                 <div className={"tip-card d-flex p-3 " + item.row}>
                                     <div className="col-6">

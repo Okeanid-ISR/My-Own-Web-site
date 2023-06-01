@@ -17,7 +17,7 @@ const Header = ({toggleThemeButton}) => {
                         <ul className="navBar-ul list-unstyled d-flex col-10">
                             <li className="navBar-ul__list shake"><Link
                                 className="navBar-ul__link   fw-400 text-decoration-none"
-                                to="/">Home</Link></li>
+                                to="/Home">Home</Link></li>
                             <li className="navBar-ul__list shake">
                                 <a className="navBar-ul__link text-decoration-none"
                                    href="/Ilya_Tsoy_resume_Main.pdf"
@@ -26,7 +26,7 @@ const Header = ({toggleThemeButton}) => {
 
                             </li>
                             <li className="navBar-ul__list shake"><Link className="navBar-ul__link text-decoration-none"
-                                                                        to="sayHello">Contact</Link></li>
+                                                                        to="/sayHello">Contact</Link></li>
                         </ul>
                         <div className="navBar-modules align-items-center col-3">
                             <button onClick={toggleThemeButton} id="toggle-theme">Dark Mode</button>
@@ -35,12 +35,12 @@ const Header = ({toggleThemeButton}) => {
                     </nav>
                     <div className="col-9 d-flex justify-content-end align-items-center">
                         <nav className="navbar position-relative justify-content-center navbar-expand-lg">
-                            <button className="navbar-toggler "  type="button" data-bs-toggle="collapse"
+                            <button className="navbar-toggler"  type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
                                     aria-expanded="false">
                                 <span className="navbar-toggler-icon"/>
                             </button>
-                            <div className="collapse  navbar-collapse nav-hid" id="navbarTogglerDemo02">
+                            <div className="collapse navbar-collapse nav-hid" id="navbarTogglerDemo02">
                                 <ul className="navbar-nav me-auto mb-2 dropdown-menu d-flex align-items-center mb-lg-0">
                                     <li className="nav-item navBar-ul__link   fw-400 text-decoration-none">
                                         <Link className="nav-link active" aria-current="page" to="/Home">Home</Link>
@@ -55,7 +55,7 @@ const Header = ({toggleThemeButton}) => {
                                     </li>
 
                                     <li className="nav-item navBar-ul__link   fw-400 text-decoration-none">
-                                        <Link  to='/sayHello' className="nav-link active">Say Hello</Link>
+                                        <Link  to='/sayHello' className="nav-link active">Contact</Link>
                                     </li>
                                 </ul>
                             </div>
