@@ -48,7 +48,7 @@ const Header = ({toggleThemeButton}) => {
 
                                     <li className="nav-item navBar-ul__link fw-400 text-decoration-none">
                                         <a className="navBar-ul__link text-decoration-none"
-                                           href="/Ilya_Tsoy_resume_Main.pdf"
+                                           href="/Ilya_Tsoy_configured.pdf"
                                            download="resume.pdf">Resume
                                         </a>
 
