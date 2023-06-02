@@ -25,7 +25,7 @@ export default function SayHelloForm() {
         event.preventDefault();
         if (isChecked) {
             try {
-                await axios.post('https://ilya-tsoy-fullstack-developer.netlify.app/.netlify/functions/sendmail', { email, message });
+                await axios.post('/.netlify/functions/sendmail', { email, message });
                 alert('Message sent successfully');
             } catch (err) {
                 console.error(err);
