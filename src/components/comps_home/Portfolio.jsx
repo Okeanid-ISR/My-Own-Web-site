@@ -56,7 +56,7 @@ const Portfolio = () => {
                     </div>
                     <div data-aos="fade-up"
                          className="col-12 mt-3 col-md-12 col-lg-12 col-xl-4 d-flex justify-content-around">
-                        <a href="https://new-year-ws.netlify.app/">
+                        <a href="https://capable-torte-7587f3.netlify.app/">
                             <div className="portfolio-blocks cmas">
                                 <div className="overlay">
                                     As the holiday season approaches and the air becomes crisp and cool, we at
