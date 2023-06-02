@@ -26,12 +26,11 @@ const MySkills = () => {
                                 for websites - you get
                                 to make them look pretty and presentable!</p>
                             <span className="frontend__languages">Languages I speak:</span>
-                            <p>HTML, CSS, JavaScript, GIT, RESTful ,API</p>
+                            <p>JavaScript, GIT, REST API, TypeScript, HTML & CSS </p>
                             <span className="frontend__languages">Dev tools:</span>
                             <ul className="list-unstyled text-center">
                                 <li>React</li>
                                 <li>Sass</li>
-                                <li>Yarn</li>
                                 <li>Github</li>
                                 <li>Web Storm</li>
                                 <li>Figma</li>
@@ -48,10 +47,11 @@ const MySkills = () => {
                                 spells to keep everything
                                 running smoothly. You're the unsung hero of the virtual world!</p>
                             <span className="backend-block__languages">Languages I speak:</span>
-                            <p>MongoDB, Java, Node.js, SQL</p>
+                            <p>MongoDB, Java, Node.js, SQL, Java</p>
                             <span className="frontend__languages">Dev tools:</span>
                             <ul className="list-unstyled text-center">
                                 <li>Postman</li>
+                                <li>Docker</li>
                                 <li>MySQL</li>
                                 <li>MongoDB</li>
                                 <li>Swagger</li>

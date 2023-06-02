@@ -8,10 +8,15 @@ import Footer from "./components/comps_home/Footer";
 import SayHello from "./components/comps_pages/SayHello";
 
 export default function AppRouters() {
+    const playClickSound = ()=> {
+        const clickSound = new Audio('/click.mp3');
+        clickSound.play();
+    }
+
     const toggleThemeButton = () => {
         const body = document.body;
         const theme = document.getElementById("toggle-theme");
-
+        playClickSound()
         if (theme.innerText === "Light Mode") {
             body.classList.remove('dark');
             theme.innerText = "Dark Mode";
