@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import "../../styles/sayHello_styles/sayHello.css"
+import "../../styles/general_styles/general.css"
 import axios from 'axios'
 
 export default function SayHelloForm() {
@@ -24,7 +25,7 @@ export default function SayHelloForm() {
         event.preventDefault();
         if (isChecked) {
             try {
-                await axios.post('/api/sendmail', { email, message });
+                await axios.post('https://ilya-tsoy-fullstack-developer.netlify.app/.netlify/functions/sendmail', { email, message });
                 alert('Message sent successfully');
             } catch (err) {
                 console.error(err);

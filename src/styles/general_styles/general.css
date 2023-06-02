@@ -6,6 +6,7 @@
     --font-strong: 1.2rem;
     --dark-mode: #2c2e3b;
     --background-purple: #6E07F3;
+    --button-hover: #9524FC ;
     --secondary-color: #6c757d;
     --background-color: #fff;
     --background-color-dark: #02111B;
@@ -21,6 +22,15 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     --back-line-header: #333333;
+}
+
+.btn-primary {
+    background: var(--background-purple);
+    transition: 450ms;
+}
+
+.btn-primary:hover {
+    background: var(--button-hover);
 }
 
 body.dark {
