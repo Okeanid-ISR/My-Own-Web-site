@@ -1,7 +1,6 @@
 import "../../styles/general_styles/header.css"
 import "../../styles/general_styles/general.css"
 import {Link} from 'react-router-dom';
-
 const Header = ({toggleThemeButton}) => {
     return (
         <div className="header-main">
@@ -16,7 +15,7 @@ const Header = ({toggleThemeButton}) => {
                     <nav className="navBar-main col-9 col-md-10 align-items-center ">
                         <ul className="navBar-ul list-unstyled d-flex col-10">
                             <li className="navBar-ul__list shake"><Link
-                                className="navBar-ul__link   fw-400 text-decoration-none"
+                                className="navBar-ul__link fw-400 text-decoration-none"
                                 to="/">Home</Link></li>
                             <li className="navBar-ul__list shake">
                                 <a className="navBar-ul__link text-decoration-none"

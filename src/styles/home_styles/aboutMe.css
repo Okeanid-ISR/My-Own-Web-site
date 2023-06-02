@@ -2,6 +2,13 @@
     padding: 20px;
     position: relative;
 }
+.aboutMe-info {
+background: #6E07F3;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
 
 .aboutMe-funFacts {
     border: 2px solid var(--secondary-color);

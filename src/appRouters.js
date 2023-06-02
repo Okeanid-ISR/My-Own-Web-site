@@ -14,9 +14,9 @@ export default function AppRouters() {
     }
 
     const toggleThemeButton = () => {
+        playClickSound()
         const body = document.body;
         const theme = document.getElementById("toggle-theme");
-        playClickSound()
         if (theme.innerText === "Light Mode") {
             body.classList.remove('dark');
             theme.innerText = "Dark Mode";

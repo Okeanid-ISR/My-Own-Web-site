@@ -1,5 +1,6 @@
 .header-main {
     padding: 30px;
+    position: relative;
 }
 
 .header-logo__image {
