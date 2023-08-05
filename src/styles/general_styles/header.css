@@ -38,7 +38,7 @@
 .navBar-ul__list {
     margin-left: 15px;
     padding: 5px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: var(--font-famaly-forH2);
 }
 
 .navBar-ul {
@@ -87,8 +87,8 @@
     left: 0;
     bottom: -8px; /* отступ снизу */
     width: 100%;
-    height: 18px; /* высота линии */
-    border-bottom: 1.5px solid var(--back-line-header);
+    height: 3px; /* высота линии */
+    border-bottom: 3px solid white;
     border-radius: 50% 50% 0 0;
     transform: skewY(-90deg);
     transform-origin: left bottom;

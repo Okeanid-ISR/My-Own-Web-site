@@ -20,17 +20,17 @@ const Header = ({toggleThemeButton}) => {
                             <li className="navBar-ul__list shake">
                                 <a className="navBar-ul__link text-decoration-none"
                                    href="/Ilya_Tsoy_configured.pdf"
-                                   download="Ilya_Tsoy_configured.pdf">Resume
+                                   download="Ilya_Tsoy_configured.pdf">Download resume
                                 </a>
 
                             </li>
-                            <li className="navBar-ul__list shake"><Link className="navBar-ul__link text-decoration-none"
-                                                                        to="/sayHello">Contact</Link></li>
+                            {/*<li className="navBar-ul__list shake"><Link className="navBar-ul__link text-decoration-none"*/}
+                            {/*                                            to="/sayHello">Contact</Link></li>*/}
                         </ul>
-                        <div className="navBar-modules align-items-center col-3">
-                            <button onClick={toggleThemeButton} id="toggle-theme">Dark Mode</button>
-                            <div className="sun"/>
-                        </div>
+                        {/*<div className="navBar-modules align-items-center col-3">*/}
+                        {/*    <button onClick={toggleThemeButton} id="toggle-theme">Dark Mode</button>*/}
+                        {/*    <div className="sun"/>*/}
+                        {/*</div>*/}
                     </nav>
                     <div className="col-9 d-flex justify-content-end align-items-center">
                         <nav className="navbar position-relative justify-content-center navbar-expand-lg">
