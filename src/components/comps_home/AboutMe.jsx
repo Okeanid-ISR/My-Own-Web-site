@@ -27,7 +27,7 @@ const AboutMe = () => {
         return () => {
             if (vantaEffect) vantaEffect.destroy();
         };
-    }, []);
+    }, [color]);
 
     return (
         <div ref={myRef} className="aboutMe-main container-fluid mt-2">
