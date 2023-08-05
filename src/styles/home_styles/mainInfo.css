@@ -1,5 +1,5 @@
 .block-colored {
-    padding: 100px 0;
+    padding: 100px 0 50px 0;
     background: var(--background-purple);
     width: 100%;
 }
@@ -28,12 +28,14 @@
     background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' ?%3e%3c!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3e%3csvg enable-background='new 0 0 50 50' id='Layer_1' version='1.1' viewBox='0 0 50 50' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3crect fill='none' height='50' width='50'/%3e%3cpath d='M15.603,29L30,48l14.396-19 H35C35,0,6,1,6,1s19,1.373,19,28H15.603z' fill='white' stroke='%23000000' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2'/%3e%3c/svg%3e");
 }
 
+
+
 .block-colored-text__me {
     font-family: var(--font-famaly-forH2);
 }
 
 .block-colored-text__checkout {
-    font-family: Flicker,sans-serif;
+    font-family: var(--font-famaly-forH2);
 }
 
 @media screen and (max-width: 1199px) {

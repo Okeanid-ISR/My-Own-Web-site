@@ -243,7 +243,7 @@ const MainInfo = () => {
                                     slightly delirious developer to join your team, look no further - I'm your coding
                                     superhero!</p>
                               <div className="d-flex justify-content-center">
-                                  <h4 className="block-colored-text__checkout">Checkout my latest posts</h4><div className="block-colored-text__image"></div>
+                                  <h4 className="block-colored-text__checkout">Checkout my portfolio</h4><div className="block-colored-text__image"></div>
                               </div>
                             </div>
                         </div>
