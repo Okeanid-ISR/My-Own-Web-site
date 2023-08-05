@@ -4,6 +4,10 @@ import "../../styles/general_styles/general.css";
 import * as THREE from 'three';
 import NET from 'vanta/dist/vanta.net.min';
 const AboutMe = () => {
+
+    const color = window.getComputedStyle(document.documentElement)
+        .getPropertyValue('--backForParticles').trim();
+
     const myRef = useRef(null);
     useEffect(() => {
         if (!myRef.current) return;
@@ -18,7 +22,7 @@ const AboutMe = () => {
             scale: 1.00,
             scaleMobile: 1.00,
             color: 0x000000,
-            backgroundColor: 0xffffff // белый цвет фона
+            backgroundColor: color,
         });
         return () => {
             if (vantaEffect) vantaEffect.destroy();
