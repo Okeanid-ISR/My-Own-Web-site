@@ -1,11 +1,12 @@
 :root {
-    --font-text-size-nav: 1rem;
+    --font-text-size-nav: 1.4rem;
     --links-hover: #6E07F3;
     --font-weight-links: 500;
     --links-color: #2c2e3b;
     --font-strong: 1.2rem;
     --dark-mode: #2c2e3b;
     --background-purple: #6E07F3;
+    --backForParticles: #fff;
     --button-hover: #9524FC ;
     --secondary-color: #6c757d;
     --background-color: #fff;
@@ -13,10 +14,12 @@
     --back-line-header: #424C55;
     --background-image-main: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3e%3cdefs%3e%3cstyle%3e.cls-1%7bfill:%23fadf00;%7d.cls-2%7bfill:none;%7d.cls-3%7bfill:%23ffc332;opacity:0.91;%7d.cls-4%7bfill:%23fff;%7d%3c/style%3e%3c/defs%3e%3cg id='_1.sun' data-name='1.sun'%3e%3cpath class='cls-1' d='M32,17.71c-18.88.59-18.88,28,0,28.58C50.88,45.7,50.88,18.3,32,17.71Z'/%3e%3cpath class='cls-2' d='M23.71,37c-.23-10.13,11-17.34,20.09-13C36.1,12.49,17.68,18,17.71,32a14.29,14.29,0,0,0,8.49,13A14.21,14.21,0,0,1,23.71,37Z'/%3e%3cpath class='cls-3' d='M23.71,37a14.21,14.21,0,0,0,2.49,8C39.14,51,51.89,35.57,43.8,24,34.7,19.66,23.48,26.87,23.71,37Z'/%3e%3cpath d='M32,19.71c16.24.52,16.23,24.06,0,24.58-16.24-.52-16.23-24.06,0-24.58m0-2c-18.88.59-18.88,28,0,28.58,18.88-.59,18.88-28,0-28.58Z'/%3e%3cpath class='cls-4' d='M25,27.34a1,1,0,0,1-.78-1.63c.91-.93,3.34-3.82,4.54-2.17a1,1,0,0,1-.43,1.35C27,25.34,26.25,27,25,27.34Z'/%3e%3cpath class='cls-4' d='M23.06,32c-1.64,0-1.14-3.32.38-3C24.73,29.22,24.27,32.08,23.06,32Z'/%3e%3cpath d='M32,16.19a1,1,0,0,1-1-1v-5a1,1,0,1,1,2,0v5A1,1,0,0,1,32,16.19Z'/%3e%3cpath d='M43.88,21.12a1,1,0,0,1-.7-1.71l3.56-3.57a1,1,0,1,1,1.42,1.42C47.71,17.55,44.49,21.34,43.88,21.12Z'/%3e%3cpath d='M53.85,33h-5a1,1,0,0,1,0-2h5A1,1,0,0,1,53.85,33Z'/%3e%3cpath d='M47.45,48.45a1,1,0,0,1-.71-.29l-3.56-3.57c-.93-.9.51-2.35,1.41-1.41l3.57,3.56A1,1,0,0,1,47.45,48.45Z'/%3e%3cpath d='M32,54.85a1,1,0,0,1-1-1v-5a1,1,0,0,1,2,0v5A1,1,0,0,1,32,54.85Z'/%3e%3cpath d='M16.55,48.45a1,1,0,0,1-.71-1.71l3.57-3.56a1,1,0,0,1,1.41,1.41C20.37,44.88,17.15,48.67,16.55,48.45Z'/%3e%3cpath d='M15.19,33h-5a1,1,0,0,1,0-2h5A1,1,0,0,1,15.19,33Z'/%3e%3cpath d='M20.12,21.12a1,1,0,0,1-.71-.3l-3.57-3.56c-.93-.9.51-2.35,1.42-1.42l3.56,3.57A1,1,0,0,1,20.12,21.12Z'/%3e%3c/g%3e%3c/svg%3e");
     --text-color: #333;
-    --large-font-size: 2.3rem;
-    --font-famaly-forH2: Flicker, sans-serif;
+    --large-font-size: 2rem;
+    --font-famaly-forH2: Permanent Marker, cursive;;
     --font-size-normal-text: 1.170rem;
 }
+
+
 
 body {
     background-color: var(--background-color);
@@ -27,6 +30,7 @@ body {
 .btn-primary {
     background: var(--background-purple);
     transition: 450ms;
+    border-radius: 8px;
 }
 
 .btn-primary:hover {

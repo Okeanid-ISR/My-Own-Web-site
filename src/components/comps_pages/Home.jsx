@@ -12,10 +12,11 @@ export default function Home() {
         <>
             <AboutMe/>
             <MainInfo/>
-            <Hobbies/>
-            <MySkills/>
-            <Companies/>
+            {/*<Hobbies/>*/}
             <Portfolio/>
+            <Companies/>
+            <MySkills/>
+
         </>
     )
 }
