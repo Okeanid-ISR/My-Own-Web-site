@@ -16,8 +16,9 @@ const Companies = () => {
         <div className="companies-main">
             <div className="container-fluid">
                 <div className="companies-block justify-content-around flex-wrap flex-row">
-                    <h2 className="mb-5 companies-block__title">Companies <span className="text-decoration-underline">I did not</span> work with yet</h2>
-                    <Marquee loop={0} speed={60} gradient={true} gradientColor={[255,255,255]}>
+<div className='companies-block-wrapper mb-5'>
+    <h2 className=" companies-block__title">Companies <span className="">I did not</span> work with yet !</h2>
+</div>                    <Marquee loop={0} speed={60} gradient={true} gradientColor={[255,255,255]}>
                         <MyComponent className="companies-block__google companies-block__general">
                         </MyComponent>
                         <MyComponent className="companies-block__apple companies-block__general">

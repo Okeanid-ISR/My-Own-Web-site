@@ -67,6 +67,7 @@
     display: flex;
     flex-wrap: nowrap;
     overflow: hidden;
+
 }
 
 .companies-block .companies-block__general {
@@ -74,7 +75,16 @@
 }
 
 .companies-block__title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: var(--large-font-size);
     font-family: var(--font-famaly-forH2);
+}
+
+.companies-block-wrapper {
+    width: 650px;
+    padding: 10px;
+    text-align: center;
+    color: snow;
+    margin-bottom: 20px;
+    background: var(--background-purple);
 }
