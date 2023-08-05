@@ -25,9 +25,9 @@ const MySkills = () => {
                             <p className="text-center">I have a thing for frontend because it's like playing dress-up
                                 for websites - you get
                                 to make them look pretty and presentable!</p>
-                            <span className="frontend__languages">Languages I speak:</span>
-                            <p>JavaScript, GIT, REST API, TypeScript, HTML & CSS </p>
-                            <span className="frontend__languages">Dev tools:</span>
+                            <span className="frontend__languages">Languages I speak :</span>
+                            <p className='text-weight'>JavaScript, GIT, REST API, TypeScript, HTML & CSS,<br/> Chakra UI, Tailwind... </p>
+                            <span className="frontend__languages">Dev tools :</span>
                             <ul className="list-unstyled text-center">
                                 <li>React</li>
                                 <li>Sass</li>
@@ -46,9 +46,9 @@ const MySkills = () => {
                             <p className="text-center">I am a backend wizard, battling server gremlins and casting
                                 spells to keep everything
                                 running smoothly. You're the unsung hero of the virtual world!</p>
-                            <span className="backend-block__languages">Languages I speak:</span>
-                            <p>MongoDB, Java, Node.js, SQL, Java</p>
-                            <span className="frontend__languages">Dev tools:</span>
+                            <span className="backend-block__languages">Languages I speak :</span>
+                            <p className='text-weight'>MongoDB, Java, Node.js, SQL, Java...</p>
+                            <span className="frontend__languages">Dev tools :</span>
                             <ul className="list-unstyled text-center">
                                 <li>Postman</li>
                                 <li>Docker</li>
