@@ -128,32 +128,27 @@ const Portfolio = () => {
                                 </div>
                                 <div className='portfolio-blocks-text__tags'>
                                     <img className='icon-tags'
-                                         src="https://cdn-icons-png.flaticon.com/512/1493/1493169.png"
-                                         alt='bootstrap'/>
+                                         src="https://cdn-icons-png.flaticon.com/512/1493/1493169.png" alt='bootstrap'/>
                                     API
                                 </div>
                                 <div className='portfolio-blocks-text__tags'>
                                     <img className='icon-tags'
-                                         src="https://cdn-icons-png.flaticon.com/512/919/919853.png"
-                                         alt='bootstrap'/>
+                                         src="https://cdn-icons-png.flaticon.com/512/919/919853.png" alt='bootstrap'/>
                                     Docker
                                 </div>
                                 <div className='portfolio-blocks-text__tags'>
                                     <img className='icon-tags'
-                                         src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png"
-                                         alt='bootstrap'/>
+                                         src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt='bootstrap'/>
                                     Node Js
                                 </div>
                                 <div className='portfolio-blocks-text__tags'>
                                     <img className='icon-tags'
-                                         src="https://cdn-icons-png.flaticon.com/512/2556/2556997.png"
-                                         alt='bootstrap'/>
+                                         src="https://cdn-icons-png.flaticon.com/512/2556/2556997.png" alt='bootstrap'/>
                                     Vite
                                 </div>
                                 <div className='portfolio-blocks-text__tags'>
                                     <img className='icon-tags'
-                                         src="https://cdn-icons-png.flaticon.com/512/5079/5079103.png"
-                                         alt='bootstrap'/>
+                                         src="https://cdn-icons-png.flaticon.com/512/5079/5079103.png" alt='bootstrap'/>
                                     Swagger
                                 </div>
                                 <div className='portfolio-blocks-text__tags'>
@@ -204,12 +199,12 @@ const Portfolio = () => {
                             <div className='d-flex flex-direction-row'>
                                 <div className='portfolio-blocks-text__tags'>
                                     <img className='icon-tags'
-                                         src='https://cdn-icons-png.flaticon.com/512/1216/1216733.png' alt=''/>
+                                         src='https://cdn-icons-png.flaticon.com/512/1216/1216733.png' alt='bootstrap'/>
                                     HTML
                                 </div>
                                 <div className='portfolio-blocks-text__tags'>
                                     <img className='icon-tags'
-                                         src={'https://cdn-icons-png.flaticon.com/512/732/732190.png'} alt=''/>
+                                         src={'https://cdn-icons-png.flaticon.com/512/732/732190.png'} alt='bootstrap'/>
                                     CSS
                                 </div>
                                 <div className='portfolio-blocks-text__tags'>
@@ -220,12 +215,12 @@ const Portfolio = () => {
                                 </div>
                                 <div className='portfolio-blocks-text__tags'>
                                     <img className='icon-tags'
-                                         src='https://cdn-icons-png.flaticon.com/512/8422/8422177.png'/>
+                                         src='https://cdn-icons-png.flaticon.com/512/8422/8422177.png' alt='bootstrap'/>
                                     JavaScript
                                 </div>
                             </div>
                             <a className='git-back portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center' href='https://cdn-icons-png.flaticon.com/512/2111/2111432.png'>
-                                <img className='icon-tags' src='https://cdn-icons-png.flaticon.com/512/2111/2111432.png'/>
+                                <img className='icon-tags' src='https://cdn-icons-png.flaticon.com/512/2111/2111432.png' alt='bootstrap'/>
                                 GitHub</a>
                             <a className='btn-primary portfolio-blocks-text__checkout-btn p-2'
                                href='https://ehya-space.netlify.app/'>Checkout web site</a>
@@ -239,7 +234,7 @@ const Portfolio = () => {
                                 <div className='' key={index}>
                                     <a href='https://happy-new-year-isr.netlify.app/'>
 
-                                        <img className='slider-images' src={url} alt=""/>
+                                        <img className='slider-images' src={url} alt='bootstrap'/>
                                     </a>
                                 </div>
                             ))}
@@ -263,12 +258,12 @@ const Portfolio = () => {
                                 <div className='d-flex flex-direction-row'>
                                     <div className='portfolio-blocks-text__tags'>
                                         <img className='icon-tags'
-                                             src='https://cdn-icons-png.flaticon.com/512/1216/1216733.png' alt=''/>
+                                             src='https://cdn-icons-png.flaticon.com/512/1216/1216733.png' alt='bootstrap'/>
                                         HTML
                                     </div>
                                     <div className='portfolio-blocks-text__tags'>
                                         <img className='icon-tags'
-                                             src={'https://cdn-icons-png.flaticon.com/512/732/732190.png'} alt=''/>
+                                             src={'https://cdn-icons-png.flaticon.com/512/732/732190.png'} alt='bootstrap'/>
                                         CSS
                                     </div>
                                     <div className='portfolio-blocks-text__tags'>
@@ -280,12 +275,12 @@ const Portfolio = () => {
                                     </div>
                                     <div className='portfolio-blocks-text__tags'>
                                         <img className='icon-tags'
-                                             src='https://cdn-icons-png.flaticon.com/512/8422/8422177.png'/>
+                                             src='https://cdn-icons-png.flaticon.com/512/8422/8422177.png' alt='bootstrap'/>
                                         JavaScript
                                     </div>
                                 </div>
                                 <a className='git-back portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center' href='https://cdn-icons-png.flaticon.com/512/2111/2111432.png'>
-                                    <img className='icon-tags' src='https://cdn-icons-png.flaticon.com/512/2111/2111432.png'/>
+                                    <img className='icon-tags' src='https://cdn-icons-png.flaticon.com/512/2111/2111432.png' alt='bootstrap'/>
                                     GitHub</a>
                                 <a className='btn-primary portfolio-blocks-text__checkout-btn p-2'
                                    href='https://happy-new-year-isr.netlify.app/'>Checkout web site</a>
@@ -300,7 +295,7 @@ const Portfolio = () => {
                                 <div className='' key={index}>
                                     <a href='https://atlas-main-isr.netlify.app/'>
 
-                                        <img className='slider-images' src={url} alt=""/>
+                                        <img className='slider-images' src={url} alt='bootstrap'/>
                                     </a>
 
                                 </div>
@@ -320,12 +315,12 @@ const Portfolio = () => {
                             <div className='d-flex flex-direction-row'>
                                 <div className='portfolio-blocks-text__tags'>
                                     <img className='icon-tags'
-                                         src='https://cdn-icons-png.flaticon.com/512/1216/1216733.png' alt=''/>
+                                         src='https://cdn-icons-png.flaticon.com/512/1216/1216733.png' alt='bootstrap'/>
                                     HTML
                                 </div>
                                 <div className='portfolio-blocks-text__tags'>
                                     <img className='icon-tags'
-                                         src={'https://cdn-icons-png.flaticon.com/512/732/732190.png'} alt=''/>
+                                         src={'https://cdn-icons-png.flaticon.com/512/732/732190.png'} alt='bootstrap'/>
                                     CSS
                                 </div>
                                 <div className='portfolio-blocks-text__tags'>
@@ -336,12 +331,12 @@ const Portfolio = () => {
                                 </div>
                                 <div className='portfolio-blocks-text__tags'>
                                     <img className='icon-tags'
-                                         src='https://cdn-icons-png.flaticon.com/512/8422/8422177.png'/>
+                                         src='https://cdn-icons-png.flaticon.com/512/8422/8422177.png' alt='bootstrap'/>
                                     JavaScript
                                 </div>
                             </div>
                             <a className='git-back portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center' href='https://cdn-icons-png.flaticon.com/512/2111/2111432.png'>
-                                <img className='icon-tags' src='https://cdn-icons-png.flaticon.com/512/2111/2111432.png'/>
+                                <img className='icon-tags' src='https://cdn-icons-png.flaticon.com/512/2111/2111432.png' alt='bootstrap'/>
                                 GitHub</a>
                             <a className='btn-primary portfolio-blocks-text__checkout-btn'
                                href='https://atlas-main-isr.netlify.app/'>Checkout web site</a>
