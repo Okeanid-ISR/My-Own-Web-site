@@ -85,7 +85,7 @@ const Portfolio = () => {
                 <div className="row">
                     <div data-aos="fade-up"
                          className="col-12 col-md-12 col-lg-12 col-xl-12 d-flex flex-row portfolio-wrapper ">
-                        <Slider className='' {...settings}>
+                        <Slider {...settings}>
                             {imagesBrio.map((url, index) => (
                                 <div className='' key={index}>
                                     <a href='https://www.thebrioshop.com/'>
@@ -162,16 +162,23 @@ const Portfolio = () => {
                                     React
                                 </div>
                             </div>
-                        <div className='d-flex flex-direction-row'>
-                            <a className='git-back portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center' href='https://github.com/Okeanid-ISR/Brio-back-end'>
-                                <img className='icon-tags' src='https://cdn-icons-png.flaticon.com/512/2111/2111432.png' alt='bootstrap'/>
-                                GitHub back-end</a>
-                            <a className='git-back portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center' href='https://github.com/brandalx/Brio-front-end-client'>
-                                <img className='icon-tags' src='https://cdn-icons-png.flaticon.com/512/2111/2111432.png' alt='bootstrap'/>
-                                GitHub front-end</a>
-                        </div>
-                            <a className='btn-primary portfolio-blocks-text__checkout-btn p-2'
-                               href='https://www.thebrioshop.com/'>Checkout web site</a>
+                            <div className='d-flex flex-direction-row'>
+                                <a className='git-back portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center'
+                                   href='https://github.com/Okeanid-ISR/Brio-back-end'>
+                                    <img className='icon-tags'
+                                         src='https://cdn-icons-png.flaticon.com/512/2111/2111432.png' alt='bootstrap'/>
+                                    GitHub back-end</a>
+                                <a className='git-back portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center'
+                                   href='https://github.com/brandalx/Brio-front-end-client'>
+                                    <img className='icon-tags'
+                                         src='https://cdn-icons-png.flaticon.com/512/2111/2111432.png' alt='bootstrap'/>
+                                    GitHub front-end</a>
+                            </div>
+                            <a className='btn-primary portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center justify-content-center'
+                               href='https://happy-new-year-isr.netlify.app/'><img className='icon-tags'
+                                                                                   src="https://cdn-icons-png.flaticon.com/512/2421/2421045.png"
+                                                                                   alt='bootstrap'/>Visit web
+                                site</a>
                         </div>
                     </div>
                     <div data-aos="fade-up"
@@ -219,11 +226,16 @@ const Portfolio = () => {
                                     JavaScript
                                 </div>
                             </div>
-                            <a className='git-back portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center' href='https://cdn-icons-png.flaticon.com/512/2111/2111432.png'>
-                                <img className='icon-tags' src='https://cdn-icons-png.flaticon.com/512/2111/2111432.png' alt='bootstrap'/>
+                            <a className='git-back portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center justify-content-center'
+                               href='https://github.com/Okeanid-ISR/ehya-main'>
+                                <img className='icon-tags' src='https://cdn-icons-png.flaticon.com/512/2111/2111432.png'
+                                     alt='bootstrap'/>
                                 GitHub</a>
-                            <a className='btn-primary portfolio-blocks-text__checkout-btn p-2'
-                               href='https://ehya-space.netlify.app/'>Checkout web site</a>
+                            <a className='btn-primary portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center justify-content-center'
+                               href='https://happy-new-year-isr.netlify.app/'><img className='icon-tags'
+                                                                                   src="https://cdn-icons-png.flaticon.com/512/2421/2421045.png"
+                                                                                   alt='bootstrap'/>Visit web
+                                site</a>
 
                         </div>
                     </div>
@@ -258,12 +270,14 @@ const Portfolio = () => {
                                 <div className='d-flex flex-direction-row'>
                                     <div className='portfolio-blocks-text__tags'>
                                         <img className='icon-tags'
-                                             src='https://cdn-icons-png.flaticon.com/512/1216/1216733.png' alt='bootstrap'/>
+                                             src='https://cdn-icons-png.flaticon.com/512/1216/1216733.png'
+                                             alt='bootstrap'/>
                                         HTML
                                     </div>
                                     <div className='portfolio-blocks-text__tags'>
                                         <img className='icon-tags'
-                                             src={'https://cdn-icons-png.flaticon.com/512/732/732190.png'} alt='bootstrap'/>
+                                             src={'https://cdn-icons-png.flaticon.com/512/732/732190.png'}
+                                             alt='bootstrap'/>
                                         CSS
                                     </div>
                                     <div className='portfolio-blocks-text__tags'>
@@ -275,15 +289,21 @@ const Portfolio = () => {
                                     </div>
                                     <div className='portfolio-blocks-text__tags'>
                                         <img className='icon-tags'
-                                             src='https://cdn-icons-png.flaticon.com/512/8422/8422177.png' alt='bootstrap'/>
+                                             src='https://cdn-icons-png.flaticon.com/512/8422/8422177.png'
+                                             alt='bootstrap'/>
                                         JavaScript
                                     </div>
                                 </div>
-                                <a className='git-back portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center' href='https://cdn-icons-png.flaticon.com/512/2111/2111432.png'>
-                                    <img className='icon-tags' src='https://cdn-icons-png.flaticon.com/512/2111/2111432.png' alt='bootstrap'/>
+                                <a className='git-back portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center justify-content-center'
+                                   href='https://github.com/Okeanid-ISR/Christmas-project'>
+                                    <img className='icon-tags'
+                                         src='https://cdn-icons-png.flaticon.com/512/2111/2111432.png' alt='bootstrap'/>
                                     GitHub</a>
-                                <a className='btn-primary portfolio-blocks-text__checkout-btn p-2'
-                                   href='https://happy-new-year-isr.netlify.app/'>Checkout web site</a>
+                                <a className='btn-primary portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center justify-content-center'
+                                   href='https://happy-new-year-isr.netlify.app/'><img className='icon-tags'
+                                                                                       src="https://cdn-icons-png.flaticon.com/512/2421/2421045.png"
+                                                                                       alt='bootstrap'/>Visit web
+                                    site</a>
 
                             </div>
                         </div>
@@ -335,11 +355,16 @@ const Portfolio = () => {
                                     JavaScript
                                 </div>
                             </div>
-                            <a className='git-back portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center' href='https://cdn-icons-png.flaticon.com/512/2111/2111432.png'>
-                                <img className='icon-tags' src='https://cdn-icons-png.flaticon.com/512/2111/2111432.png' alt='bootstrap'/>
+                            <a className='git-back portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center justify-content-center'
+                               href='https://github.com/Okeanid-ISR/Atlas'>
+                                <img className='icon-tags' src='https://cdn-icons-png.flaticon.com/512/2111/2111432.png'
+                                     alt='bootstrap'/>
                                 GitHub</a>
-                            <a className='btn-primary portfolio-blocks-text__checkout-btn'
-                               href='https://atlas-main-isr.netlify.app/'>Checkout web site</a>
+                                <a className='btn-primary portfolio-blocks-text__checkout-btn p-2 d-flex align-items-center justify-content-center'
+                                   href='https://happy-new-year-isr.netlify.app/'><img className='icon-tags'
+                                                                                       src="https://cdn-icons-png.flaticon.com/512/2421/2421045.png"
+                                                                                       alt='bootstrap'/>Visit web
+                                    site</a>
                         </div>
                     </div>
                 </div>
