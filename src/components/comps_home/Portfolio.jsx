@@ -29,9 +29,7 @@ const Portfolio = () => {
                 "/images/brio-1.jpg",
                 "/images/brio-2.jpg",
                 "/images/brio-3.jpg",
-                "/images/brio-4.png",
-                "/images/brio-5.png",
-                "/images/brio-7.png"
+
             ],
             settings: {
                 dots: true,
@@ -72,7 +70,6 @@ const Portfolio = () => {
                 "/images/ehya1.png",
                 "/images/ehya2.png",
                 "/images/ehya3.png",
-                "/images/ehya4.png"
             ],
             settings: {
                 dots: true,
@@ -111,9 +108,7 @@ const Portfolio = () => {
                 "/images/chrstmas1.png",
                 "/images/chrstmas2.png",
                 "/images/chrstmas3.png",
-                "/images/chrstmas4.png",
-                "/images/chrstmas5.png",
-                "/images/chrstmas6.png"
+
             ],
             settings: {
                 dots: true,
