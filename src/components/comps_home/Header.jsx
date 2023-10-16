@@ -52,10 +52,6 @@ const Header = ({toggleThemeButton}) => {
                                         </a>
 
                                     </li>
-
-                                    <li className="nav-item navBar-ul__link   fw-400 text-decoration-none">
-                                        <Link  to='/sayHello' className="nav-link active">Contact</Link>
-                                    </li>
                                 </ul>
                             </div>
                         </nav>
